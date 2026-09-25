@@ -1,21 +1,33 @@
+# Project-specific
+my.keystore
+pom.xml
+*jar
+/lib/
+/classes/
+.lein-deps-sum
+*~
+*#
+.cake
+.DS_Store
+.#*
+.emacs-project
+.lein-failures
+target
 
-# scratch/
-
+# Personal workspace
+scratch/
 personal/
 .~lock*
-
 my4clojure.iml
 .nrepl-port
 lsp/
 
-# Temporary directories.
+# Temporary directories
 tmp/
 
-# Emacs backups.
-*~
-
-# Generated directories.
+# Generated directories
 public-html/
+out/
 
 # Log files
 *.log
@@ -28,20 +40,16 @@ public-html/
 # cljs-shadow
 dev-resources/public/js/
 dev-resources/public/css/
-target/
 yarn.lock
 package-lock.json
 .shadow-cljs/
 prod-resources/
 node_modules/
 
-# Generated directories
-out/
-
 # Cache directory
 .cpcache/
 
-# CLJ errors.
+# CLJ errors
 trace.edn
 
 # clj-kondo cache
@@ -49,4 +57,3 @@ trace.edn
 
 .calva/
 .clj-kondo/
-
